@@ -1,1 +1,1 @@
-# week1-leedcode
+# Learning code
