@@ -46,7 +46,7 @@ For arr = [2, 4, 1, 5], the output should be
 simpleSort(arr) = [1, 2, 4, 5].
 ```
 Answers
-```
+```python
 def simpleSort(arr):
 
     n = len(arr)
