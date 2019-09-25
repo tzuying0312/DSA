@@ -8,7 +8,7 @@ For n = 50, the output should be
 countBits(n) = 6.
 5010 = 1100102, a number that consists of 6 digits. Thus, the output should be 6.
 ```
-
+Answers
 ```python
 def countBits(n):
     return n.bit_length()
@@ -29,7 +29,7 @@ modulus(n) = 1;
 For n = 23.12, the output should be
 modulus(n) = -1.
 ```
-
+Answers
 ```python
 def modulus(n):
     if isinstance(n,int):
