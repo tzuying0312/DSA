@@ -12,7 +12,7 @@ Answers
 def countBits(n):
     return n.bit_length()
 ```
-`bit_length()為回傳n的二進位形式佔多少長度`
+    bit_length()為回傳n的二進位形式佔多少長度    
 
 ## 6 modulus
 It frustrates you more than you'd like to admit that the modulus operator in Python can be applied to non-integer values. When you write code, you expect the result of the modulus operator to always be an integer, but thanks to Python this isn't always the case.
@@ -36,7 +36,7 @@ def modulus(n):
         return -1
 ```
     isinstance(object, classinfo)    
-    如果参数object是classinfo，返回True。如果不是，返回结果False。  
+    如果參數object是classinfo，返回True。如果不是，返回结果False。  
     
 ## 7 simpleSort
 To understand how efficient the built-in Python sorting function is, you decided to implement your own simple sorting algorithm and compare its speed to the speed of the Python sorting. Write a function that, given an array of integers arr, sorts its elements in ascending order.
