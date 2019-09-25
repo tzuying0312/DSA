@@ -1,5 +1,5 @@
 # meet python
-###### 5 count bits
+## 5 count bits
 Implement a function that, given an integer n, uses a specific method on it and returns the number of bits in its binary representation.
 Example
 
