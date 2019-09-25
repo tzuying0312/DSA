@@ -1,6 +1,7 @@
 # meet python
 ## 5 count bits
 Implement a function that, given an integer n, uses a specific method on it and returns the number of bits in its binary representation.
+
 Example
 ```python
 For n = 50, the output should be
@@ -40,6 +41,7 @@ def modulus(n):
     
 ## 7 simpleSort
 To understand how efficient the built-in Python sorting function is, you decided to implement your own simple sorting algorithm and compare its speed to the speed of the Python sorting. Write a function that, given an array of integers arr, sorts its elements in ascending order.
+
 Example
 ```python
 For arr = [2, 4, 1, 5], the output should be
