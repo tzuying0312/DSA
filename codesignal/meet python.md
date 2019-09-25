@@ -80,5 +80,5 @@ Answers
 def baseConversion(n, x):
     return hex(int(n,x))[2:]
 ```
-    如果只打return hex(int(n,x))答案會出現以下圖片
+    如果只打return hex(int(n,x))答案會出現以下圖片，因此我們只取從2的位置開始。
 ![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/baseConversion.jpg)
