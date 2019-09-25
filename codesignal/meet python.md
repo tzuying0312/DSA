@@ -1,5 +1,5 @@
 # meet python
-## codesignal的練習題目和解答，以及python中的函數或語法會放在解答下。
+###### codesignal的練習題目和解答，以及python中的函數或語法會放在解答下。
 ## 5 count bits
 Implement a function that, given an integer n, uses a specific method on it and returns the number of bits in its binary representation.
 
