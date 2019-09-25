@@ -67,6 +67,7 @@ Your university professor decided to have a little fun and asked the class to im
 Laughing devilishly, you asked if it was okay to use a language of your choice, and the unsuspecting professor answered "yes". It's settled then: Python is your language of choice!
 
 Now you're bound to win. Implement a function that, given an integer number n and a base x, converts n from base x to base 16.
+
 Example
 ```python
 For n = "1302" and x = 5, the output should be
@@ -87,6 +88,7 @@ def baseConversion(n, x):
 You've just started to study impartial games, and came across an interesting theory. The theory is quite complicated, but it can be narrowed down to the following statements: solutions to all such games can be found with the mex function. Mex is an abbreviation of minimum excludant: for the given set s it finds the minimum non-negative integer that is not present in s.
 
 You don't yet know how to implement such a function efficiently, so would like to create a simplified version. For the given set s and given an upperBound, implement a function that will find its mex if it's smaller than upperBound or return upperBound instead.
+
 Example
 ```python
 For s = [0, 4, 2, 3, 1, 7] and upperBound = 10,
