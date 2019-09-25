@@ -80,4 +80,5 @@ Answers
 def baseConversion(n, x):
     return hex(int(n,x))[2:]
 ```
-如果只打return hex(int(n,x))答案會出現
+    如果只打return hex(int(n,x))答案會出現以下圖片
+![GITHUB](codesignal/baseConversion.jpg)
