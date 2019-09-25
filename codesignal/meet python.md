@@ -13,7 +13,7 @@ countBits(n) = 6.
 def countBits(n):
     return n.bit_length()
 ```
-ˋbit_length()為回傳n的二進位形式佔多少長度ˋ
+`bit_length()為回傳n的二進位形式佔多少長度`
 
 ## 6 modulus
 
