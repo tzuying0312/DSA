@@ -39,6 +39,25 @@ catWalk(line) = "def m e gaDifficu ltFun ction(x):".
 ```
 Answers
 ```python
-
+def catWalk(code):
+    return  ' '.join(code.split())
 ```
+    split()去除中間空格
+    join() 將序列中的元素以指定的字符切割。
 
+## 15 convertTabs
+You found an awesome customizable Python IDE that has almost everything you'd like to see in your working environment. However, after a couple days of coding you discover that there is one important feature that this IDE lacks: it cannot convert tabs to spaces. Luckily, the IDE is easily customizable, so you decide to write a plugin that would convert all tabs in the code into the given number of whitespace characters.
+
+Implement a function that, given a piece of code and a positive integer x will turn each tabulation character in code into x whitespace characters.
+
+Example
+```python
+For code = "\treturn False" and x = 4, the output should be
+the output should be
+convertTabs(code, x) = "    return False"
+```
+Answers
+```python
+def catWalk(code):
+    return  ' '.join(code.split())
+```
