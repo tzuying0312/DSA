@@ -58,6 +58,7 @@ convertTabs(code, x) = "    return False"
 ```
 Answers
 ```python
-def catWalk(code):
-    return  ' '.join(code.split())
+def convertTabs(code, x):
+    return code.replace('\t', ' '*x)
 ```
+    .replace('\t',' ')，\t用空白取代
