@@ -91,3 +91,65 @@ def feedbackReview(feedback, size):
 ```
     textwrap模塊提供wrap()、fill()、indent()、dedent()和以及TextWrapper類的函數。
     .wrap(feedback, size)：長度為size
+
+## 16 isWordPalindrome
+Given a word, check whether it is a palindrome or not. A string is considered to be a palindrome if it reads the same in both directions.
+
+Example
+```python
+For word = "aibohphobia", the output should be
+isWordPalindrome(word) = true;
+
+For word = "hehehehehe", the output should be
+isWordPalindrome(word) = false.
+```
+Answers
+```python
+def isWordPalindrome(word):
+    return word == word[::-1]
+```
+    [::-1]順序相反
+    EX:
+    a=[1,2,3,4,5]
+    b=a[::-1]
+    b為[5,4,3,2,1]
+    
+## 17 permutationCipher
+You found your very first laptop in the attic, and decided to give in to nostalgia and turn it on. The laptop turned out to be password protected, but you know how to crack it: you have always used the same password, but encrypt it using permutation ciphers with various keys. The key to the cipher used to protect your old laptop very conveniently happened to be written on the laptop lid.
+
+Here's how permutation cipher works: the key to it consists of all the letters of the alphabet written up in some order. All occurrences of letter 'a' in the encrypted text are substituted with the first letter of the key, all occurrences of letter 'b' are replaced with the second letter from the key, and so on, up to letter 'z' replaced with the last symbol of the key.
+
+Given the password you always use, your task is to encrypt it using the permutation cipher with the given key.
+
+Example
+```python
+For password = "iamthebest" and
+key = "zabcdefghijklmnopqrstuvwxy", the output should be
+permutationCipher(password, key) = "hzlsgdadrs".
+```
+Answers
+```python
+def permutationCipher(password, key):
+    table = str.maketrans(string.ascii_lowercase, key)
+    return password.translate(table)
+```
+    .translate為根據table給出256個字符轉換
+    table為通過maketrans轉換而來
+    string.ascii_lowercase:小寫字母'abcdefghijklmnopqrstuvwxyz'
+    
+## 18 competitiveEating
+The World Wide Competitive Eating tournament is going to be held in your town, and you're the one who is responsible for keeping track of time. For the great finale, a large billboard of the given width will be installed on the main square, where the time of possibly new world record will be shown.
+
+The track of time will be kept by a float number. It will be displayed on the board with the set precision precision with center alignment, and it is guaranteed that it will fit in the screen. Your task is to test the billboard. Given the time t, the width of the screen and the precision with which the time should be displayed, return a string that should be shown on the billboard.
+Example
+```python
+For t = 3.1415, width = 10, and precision = 2,
+the output should be
+competitiveEating(t, width, precision) = "   3.14   "
+```
+Answers
+```python
+def competitiveEating(t, width, precision):
+    return "{0:.{1}f}".format(t,precision).center(width)
+```
+    {:.2f}小數後兩位
