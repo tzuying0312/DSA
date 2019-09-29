@@ -141,6 +141,7 @@ def permutationCipher(password, key):
 The World Wide Competitive Eating tournament is going to be held in your town, and you're the one who is responsible for keeping track of time. For the great finale, a large billboard of the given width will be installed on the main square, where the time of possibly new world record will be shown.
 
 The track of time will be kept by a float number. It will be displayed on the board with the set precision precision with center alignment, and it is guaranteed that it will fit in the screen. Your task is to test the billboard. Given the time t, the width of the screen and the precision with which the time should be displayed, return a string that should be shown on the billboard.
+
 Example
 ```python
 For t = 3.1415, width = 10, and precision = 2,
@@ -153,3 +154,21 @@ def competitiveEating(t, width, precision):
     return "{0:.{1}f}".format(t,precision).center(width)
 ```
     {:.2f}小數後兩位
+
+## 19 newStyleFormatting
+You came to work in a big company as a Senior Python Developer. Unfortunately your team members seem to be quite old-school: you can see old-style string formatting everywhere in the code, which is not too cool. You tried to force the team members to start using the new style formatting, but it looks like it will take some time to persuade them: old habits die hard, especially in old-school programmers.
+
+To show your colleagues that the new style formatting is not that different from the old style, you decided to implement a function that will turn the old-style syntax into a new one. Implement a function that will turn the old-style string formating s into a new one so that the following two strings have the same meaning:
+
+s % (*args)
+s.format(*args)
+
+Example
+```python
+For s = "We expect the %f%% growth this week", the output should be
+newStyleFormatting(s) = "We expect the {}% growth this week".
+```
+Answers
+```python
+
+```
