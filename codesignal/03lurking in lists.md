@@ -60,3 +60,20 @@ def removeTasks(k, toDo):
 ```
     [start:end:step]
     EX: range(100)[5:18:2] 輸出為 [5, 7, 9, 11, 13, 15, 17]
+
+## 25 printList
+You were supposed to prepare a presentation about lists in Python, but totally forgot about it. Now that you don't have enough time for it, you decide to show some usage examples instead and say with the poker face that this is how you understood the assignment.
+
+Now you need to implement a function that will display a list in the console. Implement a function that, given a list lst, will return it as a string as follows: "This is your list: lst".
+
+Example
+```python
+For lst = [1, 2, 3, 4, 5], the output should be
+printList(lst) = "This is your list: [1, 2, 3, 4, 5]".
+
+```
+Answers
+```python
+def printList(lst):
+    return "This is your list: " +str(lst)
+```
