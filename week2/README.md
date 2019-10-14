@@ -17,7 +17,9 @@ Linked list是一種常見的資料結構，使用node(節點)來記錄、表示
 
 ## Array v.s. Linked list
 
-###### Array
+![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/linked%20list.png)
+
+* Array
 Array(矩陣)是常見的用來記錄一連串**具有相同形態的資料**的資料結構。
 * 優點
   * random access：只要利用index即可在O(1)時間對Array的資料做存取。
@@ -30,7 +32,7 @@ Array(矩陣)是常見的用來記錄一連串**具有相同形態的資料**的
   * 要求記憶體空間的使用越少越好。
 
 
-###### Linked list
+* Linked list
 * 優點
   * 新增/刪除資料較Array簡單，只要對O(1)個node(所有與欲新增/刪除的node有pointer相連的node)調整pointer即可，不需要如同Array般搬動其餘元素。
     * 若是在Linked list的「開頭」新增node，只要O(1)。
@@ -45,10 +47,7 @@ Array(矩陣)是常見的用來記錄一連串**具有相同形態的資料**的
   * 不需要快速查詢資料。
 
 
-![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/stack.png)
 
 
 
-
-![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/queue.png)
 
