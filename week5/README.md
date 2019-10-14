@@ -20,7 +20,7 @@
 
 3.遞迴排序子序列：遞迴地將小於基準值元素的子序列和大於基準值元素的子序列排序。
 
-## 流程流程示意圖
+## 流程示意圖
 ![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/Quicksort.png)
 
 ## 時間複雜度
