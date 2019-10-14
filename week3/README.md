@@ -3,11 +3,11 @@
 ## 簡介
 當我們碰到大量資料的時候，通常都會用陣列來處理，資料結構中處理陣列有兩種較常見的方式：stack與queue。
 *stack
-  *先進後出(FILO First In Last Out)的資料結構，代表先進去的資料最後出來。
-  *ex：疊盤子、發牌、走迷宮
+   *先進後出(FILO First In Last Out)的資料結構，代表先進去的資料最後出來。
+   *ex：疊盤子、發牌、走迷宮
 *queue
-  *與stack相似，但規則不同，它是排隊的概念，先到先贏，先進先出(FIFO First in First out)。
-  *ex：排隊買票、坐公車
+   *與stack相似，但規則不同，它是排隊的概念，先到先贏，先進先出(FIFO First in First out)。
+   *ex：排隊買票、坐公車
   
 ## 為何要有stack?
 1.編輯器(如word、sublime等等)中的undo。
