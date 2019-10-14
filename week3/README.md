@@ -19,13 +19,16 @@
 ## stack必須要有的功能
 1.push(data):把資料放進stack。(把書放進箱子)
 
-2.pop:把*最上面*的資料從stack中移除。(把箱子中最上面書拿出來)
+2.pop:把_最上面_的資料從stack中移除。(把箱子中最上面書拿出來)
 
 3.top:回傳*最上面*的資料。(確認箱子最上面是哪本書)
 
 4.isempty:確認stack裡是否有資料。(確認箱子裡有沒有書)
 
 5.getsize:回傳stack裡的資料個數。(紀錄目前箱子已經裝了多少書)
+
+![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/stack.png)
+
 
 ## 為何要有queue?
 1.演算法:Breadth-First Search(廣度優先搜尋)。
@@ -44,7 +47,5 @@
 5.isempty:確認queue裡是否有資料。
 
 6.getSize:回傳queue裡的資料個數。 
-
-![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/insertion%20sort.gif)
 
 
