@@ -48,6 +48,6 @@ Array(矩陣)是常見的用來記錄一連串**具有相同形態的資料**的
 
 
 
-reference
+Reference:
 [Linked list](http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html)
 
