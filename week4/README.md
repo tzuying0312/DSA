@@ -12,7 +12,7 @@ Insertion Sort是一種簡單容易理解的排序演算法，概念是利用另
 
 4.若遇到的值比處理的值大或相等，則將值往右移
 
-## 流程流程示意圖
+## 流程示意圖
 ![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/insertion%20sort.gif)
 
 ## 時間複雜度
