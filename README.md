@@ -6,5 +6,3 @@
 [Insertion Sort](https://github.com/tzuying0312/Learning-Code/tree/master/week4)
 * week5:
 [Quick Sort](https://github.com/tzuying0312/Learning-Code/tree/master/week5)
-* HW1:
-[HW1_Quick Sort](https://nbviewer.jupyter.org/github/tzuying0312/Learning-Code/blob/master/week5/quciksort%282%29.ipynb)
