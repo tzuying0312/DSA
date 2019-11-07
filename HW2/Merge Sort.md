@@ -1,7 +1,7 @@
 ## Merge Sort 
 
 ## 簡介
-快速排序使用分治法（Divide and conquer）策略來把一個序列（list）分為較小和較大的2個子序列，然後遞迴地排序兩個子序列。
+Merge Sort屬於Divide and Conquer演算法，把問題先拆解(divide)成子問題，並在逐一處理子問題後，將子問題的結果合併(conquer)。
 
 ## 運算流程
 分為2個步驟:分割、合併
@@ -93,3 +93,4 @@ def merge_sort(left,right):
 
 ###### 參考資料
 [merge sort 維基百科](https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F#Python)
+[merge sort 內容介紹](http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html)
