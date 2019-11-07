@@ -20,7 +20,7 @@ class Solution(object):
                 j+=1 #由於右邊的第一位元素以排列完成，因此下一次比較的元素為右邊的第二位。
 
             else:
-                done.append(left[i])
+                done.append(left[i]) 
                 i+=1
     
-        return done+left[i:]+right[j:] #done+左與右的元素
+        return done+left[i:]+right[j:] 
