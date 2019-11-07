@@ -19,7 +19,7 @@
 5.ex:right的1與left的3比較，因此下一位比較為5與3。
 
 ## 流程示意圖
-![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/meargesort.png)
+![mergesort](https://github.com/tzuying0312/Learning-Code/blob/master/photo/mergesort.png)
 
 ## 學習歷程
 ```python
