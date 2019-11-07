@@ -119,8 +119,9 @@ def done (mylist):
 ```
     在此與上面一樣沒跑出錯誤，但結果是錯的，原因為root不該先被定義為哪個元素的值，應在比較大小時出現。
     補充:這邊不能寫mylist.insert(0,mylist.pop(-1))，由於當剩餘最後一值是會產生錯誤。
+    原本想要try，但一樣產生錯誤，應再理解。
     
 
 ###### 
-[參考資料]()
+[heap sort 維基百科](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F)
 
