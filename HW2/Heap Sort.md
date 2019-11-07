@@ -28,7 +28,7 @@ def hs(list):
         i+=1
         return list
 ```
-    簡單的寫一個，卻鄧是否可以交換成功。
+    簡單的寫一個，確認是否可以交換成功。
     
 ```python
 def hs(list):
