@@ -23,7 +23,7 @@
 
 ## 學習歷程
 
-藉由老師上課帶我們演練流程，因此打成是過程就知道會有兩個list，且比較時會有i+或j。
+藉由老師上課帶我們演練流程，因此打程式過程就知道會有左右兩個list需要比較，且比較時會有i+或j。
 首先需要切割，參考了維基百科:
 
 ```python
@@ -72,7 +72,7 @@ def merge_sort(left,right):
  ```
     錯誤原因:IndexError: list index out of range，print(left[0],right[0])
     
-    上述原因皆是長度的問題，因此藉由i與j來跑。
+    上述原因皆是長度的問題，因此藉由i與j來跑，除此之外在return也有誤。
 ```python    
     def merge_sort(left,right):
         i=0
