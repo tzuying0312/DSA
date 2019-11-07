@@ -56,7 +56,8 @@ def merge_sort(left,right):
 ```
     錯誤原因:TypeError: object of type 'NoneType' has no len()，while len(left)>0 and len(right)>0
     
-```python    
+```python
+def merge_sort(left,right):
     done=[]
     i,j=0,0
     print(left[0],right[0])
@@ -73,7 +74,7 @@ def merge_sort(left,right):
     
     上述原因皆是長度的問題，因此藉由i與j來跑。
 ```python    
-        def merge_sort(left,right):
+    def merge_sort(left,right):
         i=0
         j=0
         done=[]
