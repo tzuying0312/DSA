@@ -27,5 +27,6 @@ class Solution(object):
     
         if len(mylist)>0:
             mylist=Solution().heap_sort(mylist) #若mylist中還有元素，則丟回heap_sort。
-            
-        return ok
+        elif len(mylist)==0:
+            print(ok)
+            ok.clear() #若ok沒有清空，下一次跑時，將會繼續append到此後面
