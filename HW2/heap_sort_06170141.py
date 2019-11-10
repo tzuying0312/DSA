@@ -14,16 +14,18 @@ class Solution(object):
                     mylist[i],mylist[2*i+2]=mylist[2*i+2],mylist[i]
         return Solution().done(mylist) #當一輪結束後，list中第一位元素為最小的(排列完成)，將他丟至done。
     
-    ok=[]#若此list放入done中，ok的list中，元素會不斷清空，因此放置在外。
+    okay=[]#若此list放入done中，ok的list中，元素會不斷清空，因此放置在外。
 
 
     def done (self,mylist):
+        ok=Solution().okay#取用Solution裡，def外的oky
         ok.append(mylist[0]) #由於第一位元素已是最小的，因此append至ok的list中。
         mylist[0]=mylist[-1] #最後一位會成為新的一位，在此最小的list被取代成最後一位。
         mylist.pop(-1) #已將最後一元素一至第一位，因此刪除最後
         
-        print(ok) #查看每次ok中被丟入的元素。
+        #print(ok) 查看每次ok中被丟入的元素。
     
         if len(mylist)>0:
             mylist=Solution().heap_sort(mylist) #若mylist中還有元素，則丟回heap_sort。
             
+        return ok
