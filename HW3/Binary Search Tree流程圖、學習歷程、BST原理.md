@@ -93,7 +93,7 @@ print(node1.right==30)
 ```
     在此是正確的，但是這種情況只能在該刪除點不為重複值時才能進行。
 
-因此將成是改為:
+因此將程式是改為:
 ```python
             if root.left == None and root.right == None:
                 root = None
@@ -132,6 +132,55 @@ print(node1.right==30)
                 root.val=minval.val
 ```
 
+* search
+search與insert作法很像，當root的值比target大，往右走，並將root指向root.right，反之指向left。若沒有該值，返回None。
+```python
+    def search(self, root, target):
+        if target > root.val:
+            if root.right == None:
+                return None
+            else:
+                root = root.right
+                return Solution().search(root,target) 
+
+        elif target < root.val:
+            if root.left == None:
+                return None           
+            else:
+                root = root.left
+                return Solution().search(root,target)
+
+        else:
+            return root
+```
+
+* modify
+剛開始的想法很簡單，將原值刪除，修改後的值增加，如下:
+```python
+     def modify(self, root, target, new_val):
+         if root.val == target:
+             root.val = new_val
+         else:
+             Solution().delete(root,target)
+             Solution().insert(root,new_val)
+             return root
+```
+    但有這個想法時，delete未能打出來，再加上delete有多種的情況，並不保證一定為正確的，因此決定針對modify本身。
+```python
+    def modify(self, root, target, new_val):
+        if root != None:
+            if root.val == target:
+                root.val = new_val
+                return root  
+            elif root.val<target:
+                root=root.right
+                return Solution().modify(root, target, new_val)
+            else:
+                root=root.left
+                return Solution().modify(root, target, new_val)       
+        else:
+            return False
+```
  
 ###### 參考資料
 [BST維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
