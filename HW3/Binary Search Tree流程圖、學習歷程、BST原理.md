@@ -51,6 +51,56 @@ Solution().insert(node1,30)
 print(node1.right==30)
 ```
     print出來為false，原因:print應該要打node1.right.val，才表示他的值
+    
+* delete
+```python
+   def delete(self, root, target):
+        if root == None: 
+            return None
+        elif root.val < target:
+            root = root.right
+            return root
+        elif root.val > target:
+            root = root.left
+            return root
+```
+    
+    錯誤:root = root.right，應該要用root.right=去跑delete。
+    
+    在此是參考:https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+    
+```python
+    def delete(self, root, target):
+        if root == None:
+            return None
+        elif root.val < target:
+            root.right = self.delete(root.right,target)
+
+        elif root.val > target:
+            root.left = self.delete(root.left,target)
+```
+接著進入到刪除的部分，首先必須了解有3種情況
+* 該刪除的點，沒有左右子節點
+* 該刪除的點，只有一個子節點(左or右)
+* 該刪除的點，包含兩個子節點
+
+#### 沒有左右子節點
+    做法很簡單，將root指向none，刪除完成。
+```python
+            if root.left == None and root.right == None:
+                root = None
+                return root
+```
+    在此是正確的，但是這種情況只能在該刪除點不為重複值時才能進行。
+    因此將成是改為
+```python
+            if root.left == None and root.right == None:
+                root = None
+                return self.delete(root,target)
+```
+    表示刪除完一個後，再回去檢查，因此可以解決重複值的問題。
+    
+
 
 ###### 參考資料
 [BST維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
