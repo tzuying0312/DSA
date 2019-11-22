@@ -2,7 +2,7 @@
 
 ``` python
 def insert(self,root,val):
-    newNode=TreeNode(val)
+    newNode=TreeNode(val) #newnode為等一下要新增的值
     if root.val == None: 
         root.val = val 
         return root
