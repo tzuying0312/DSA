@@ -111,7 +111,7 @@ print(node1.right==30)
                 return self.delete(root,target)
 ```
 #### 包含兩個子節點
- 在此我思考了許久如何達成，因此參考:http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html， 此篇有說明當遇到兩個子節點的情況。我選擇了一個做法:找right最大的節點。
+ 在此我思考了許久如何達成，因此參考:http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html ，此篇有說明當遇到兩個子節點的情況。我選擇了一個做法:找right最大的節點。
 ```python
             elif root.left != None and root.right != None:
                 root = Solution().findmin(root.right)
@@ -124,7 +124,7 @@ print(node1.right==30)
 ```
     錯誤: 在root的左節點跟著刪除!!!
     
-因此我我命名minval，將此值表示root.right進到findmin回傳回來的值，在將root的值指向它。
+因此我命名minval，將此值表示root.right進到findmin回傳回來的值，在將root的值指向它。
 ```python
             elif root.left != None and root.right != None:
                 minval = Solution().findmin(root.right)
