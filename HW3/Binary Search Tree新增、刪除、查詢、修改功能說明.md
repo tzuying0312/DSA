@@ -46,7 +46,7 @@
 ## 修改
 ```python
     def modify(self, root, target, new_val):
-        if root != None: #若root為空，回傳false
+        if root != None: #root必須要有東西
             if root.val == target: #若root的值為要修改得值
                 root.val = new_val #將原值換成新值
                 return root  
@@ -56,6 +56,6 @@
             else:
                 root=root.left #若原值小於root值(表示要往左找)
                 return Solution().modify(root, target, new_val) #若沒找到返回繼續
-        else:
+        else: #若root為空，回傳false
             return False
 ```
