@@ -93,16 +93,46 @@ print(node1.right==30)
 ```
     在此是正確的，但是這種情況只能在該刪除點不為重複值時才能進行。
 
-因此將成是改為
+因此將成是改為:
 ```python
             if root.left == None and root.right == None:
                 root = None
                 return self.delete(root,target)
 ```
     表示刪除完一個後，再回去檢查，因此可以解決重複值的問題。
+#### 只有一個子節點(左or右)
+    作法也容易想，將root指向該子節點。
+```python
+            elif root.left != None and root.right == None:
+                root = root.left
+                return self.delete(root,target)
+            elif root.left == None and root.right != None:
+                root = root.right
+                return self.delete(root,target)
+```
+#### 包含兩個子節點
+ 在此我思考了許久如何達成，因此參考:http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html， 此篇有說明當遇到兩個子節點的情況。我選擇了一個做法:找right最大的節點。
+```python
+            elif root.left != None and root.right != None:
+                root = Solution().findmin(root.right)
+    def findmin(self,root):
+        if root.left != None:
+            root = root.left
+            return Solution.findmin(root)
+        else:
+            return root
+```
+    錯誤: 在root的左節點跟著刪除!!!
     
+因此我我命名minval，將此值表示root.right進到findmin回傳回來的值，在將root的值指向它。
+```python
+            elif root.left != None and root.right != None:
+                minval = Solution().findmin(root.right)
+                self.delete(root, minval.val)
+                root.val=minval.val
+```
 
-
+ 
 ###### 參考資料
 [BST維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
 
