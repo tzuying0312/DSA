@@ -122,3 +122,7 @@ class Solution(object):
             print(root.val)
             self.printest(root.left)
             self.printest(root.right)
+#參考資料:
+#http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html
+#https://www.youtube.com/watch?v=YlgPi75hIBc
+#https://www.youtube.com/watch?v=LSju119w8BE
