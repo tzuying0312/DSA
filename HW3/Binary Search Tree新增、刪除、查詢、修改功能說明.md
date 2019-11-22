@@ -82,3 +82,4 @@
         else: #若root為空，回傳false
             return False
 ```
+參考資料:https://emn178.pixnet.net/blog/post/94574434
