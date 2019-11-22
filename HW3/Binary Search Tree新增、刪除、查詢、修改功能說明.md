@@ -1,4 +1,5 @@
 ## 新增
+###### 註1.:若遇到重複值情況，將insert到左邊。
 ```python
     def insert(self,root,val):
         newNode=TreeNode(val) #newnode為等一下要新增的值
@@ -51,6 +52,7 @@
 ```
 
 ## 查詢
+###### 註1.:若找不到該值，回傳None。
 ```python
     def search(self, root, target): #target為要查詢的值
         if target > root.val: #target的值比root的值大往右走
