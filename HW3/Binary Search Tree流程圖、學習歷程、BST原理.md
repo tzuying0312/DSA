@@ -155,7 +155,7 @@ search與insert作法很像，當root的值比target大，往右走，並將root
 ```
 
 * modify
-剛開始的想法很簡單，將原值刪除，修改後的值增加，如下:
+剛開始的想法很簡單，將原值做delete，將要修改後的值做insert，如下:
 ```python
      def modify(self, root, target, new_val):
          if root.val == target:
