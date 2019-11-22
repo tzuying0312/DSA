@@ -15,7 +15,7 @@ node = 30，左邊的子節點15(node.left)會小於30，右邊的子節點60(no
 ![BST](https://github.com/tzuying0312/Learning-Code/blob/master/photo/binary-search-tree.png)
 
 ## 流程圖
-![BST](https://github.com/tzuying0312/Learning-Code/blob/master/photo/BST.png)
+![BST](https://github.com/tzuying0312/Learning-Code/blob/master/photo/BST.jpg)
 [繪圖工具--draw.io](https://www.draw.io/)
 
 ## 學習歷程
