@@ -93,7 +93,7 @@ print(node1.right==30)
 ```
     在此是正確的，但是這種情況只能在該刪除點不為重複值時才能進行。
 
-    因此將成是改為
+因此將成是改為
 ```python
             if root.left == None and root.right == None:
                 root = None
