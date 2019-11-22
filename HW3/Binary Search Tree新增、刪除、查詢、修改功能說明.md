@@ -20,7 +20,30 @@
                     return Solution().insert(root.left, val)
 ```
 ## 刪除
-
+```python
+    def delete(self, root, target):
+        if root == None: #root為空
+            return None #返回
+        if root.val < target: #若要刪除的值比root值大
+            root.right = self.delete(root.right,target) #root=root.right，繼續往左找
+        elif root.val > target: #若要刪除的值比root值小
+            root.left = self.delete(root.left,target) #root=root.left，繼續往右找
+        else: #root的值等於target(表示找到此值)
+            if root.left == None and root.right == None: #若root沒有子節點
+                root = None #root直接變空值(刪除完成)
+                return self.delete(root,target) #由於可能有重複值，因此繼續找
+            elif root.left != None and root.right == None: #若root只有左節點
+                root = root.left #將root指向左節點
+                return self.delete(root,target)
+            elif root.left == None and root.right != None: #若root只有右節點
+                root = root.right #將root指向右節點
+                return self.delete(root,target)
+            elif root.left != None and root.right != None: 若root有兩個左右子節點
+                minval = Solution().findmin(root.right) #找右邊最小的，並將值取為minval
+                self.delete(root, minval.val) 
+                root.val=minval.val 
+        return root
+```
 
 ## 查詢
 ```python
