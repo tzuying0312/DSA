@@ -46,7 +46,7 @@
 ## 修改
 ```python
     def modify(self, root, target, new_val): #target為原來的值，new_val表示要修改的值。
-        if root.val == target: #root的值等於原來的值(代表找到目標target的值)
+        if root.val == target: #root的值等於原來的值
             root.val = new_val #將原來的值改成新的值
         else: #其他(未找到)
             Solution().insert(root,new_val) #去新增要修改後的值
