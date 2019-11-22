@@ -1,5 +1,5 @@
+#### 根據BST原理，大的往右，其餘往左。
 ## 新增
-
 ``` python
 def insert(self,root,val):
     newNode=TreeNode(val) #newnode為等一下要新增的值
