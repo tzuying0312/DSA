@@ -20,11 +20,16 @@
                     return Solution().insert(root.left, val)
 ```
 ## 刪除
+分為3種情況:
+* root沒有子節點
+* root只有一個子節點(right or left)
+* root有兩個子節點
+
 ```python
     def delete(self, root, target):
         if root == None: #root為空
             return None #返回
-        if root.val < target: #若要刪除的值比root值大
+        elif root.val < target: #若要刪除的值比root值大
             root.right = self.delete(root.right,target) #root=root.right，繼續往左找
         elif root.val > target: #若要刪除的值比root值小
             root.left = self.delete(root.left,target) #root=root.left，繼續往右找
