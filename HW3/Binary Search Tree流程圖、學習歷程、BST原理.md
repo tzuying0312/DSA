@@ -16,9 +16,11 @@ node = 30，左邊的子節點15(node.left)會小於30，右邊的子節點60(no
 
 ![BST](https://github.com/tzuying0312/Learning-Code/blob/master/photo/binary-search-tree.png)
 
+## 流程圖
 
+## 學習歷程
 
-kof
 ###### 參考資料
 [BST維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
+
 [BST圖片來源](https://www.javatpoint.com/binary-search-tree)
