@@ -19,6 +19,38 @@ node = 30，左邊的子節點15(node.left)會小於30，右邊的子節點60(no
 [繪圖工具--draw.io](https://www.draw.io/)
 
 ## 學習歷程
+* insert
+```python
+class TreeNode(object):
+    def __init__(self,x):
+        self.val = x
+        self.left = None
+        self.right = None
+class Solution(object):
+    def insert(self,root,val):
+        newNode=TreeNode(val)
+        if root.val == None: 
+            root.val = val 
+            return root
+        else: 
+            if root.val < val :
+                if root.right == None: 
+                   root.right = newNode
+                   return root.right
+                else: 
+                    return Solution().insert(root.right, val) 
+            else: 
+                if root.left == None: 
+                    root.left = newNode 
+                    return root.left
+                else: 
+                    return Solution().insert(root.left, val)
+
+node1=TreeNode(10)
+Solution().insert(node1,30)
+print(node1.right==30)
+```
+    print出來為false，原因:print應該要打node1.right.val，才表示他的值
 
 ###### 參考資料
 [BST維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
