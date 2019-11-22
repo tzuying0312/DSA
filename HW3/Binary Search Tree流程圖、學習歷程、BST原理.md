@@ -67,7 +67,7 @@ print(node1.right==30)
     
     錯誤:root = root.right，應該要用root.right=去跑delete。
     
-    在此是參考:https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+    在此是參考:[https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/]
     
 ```python
     def delete(self, root, target):
@@ -92,6 +92,7 @@ print(node1.right==30)
                 return root
 ```
     在此是正確的，但是這種情況只能在該刪除點不為重複值時才能進行。
+    
     因此將成是改為
 ```python
             if root.left == None and root.right == None:
