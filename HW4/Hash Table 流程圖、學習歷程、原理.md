@@ -12,7 +12,7 @@
 
 ![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hash_table.png)
 
-#### 參考資料
+###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
 
 [維基百科](https://zh.wikipedia.org/wiki/%E5%93%88%E5%B8%8C%E8%A1%A8)
