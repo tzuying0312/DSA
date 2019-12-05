@@ -13,7 +13,7 @@
 ![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hash_table.png)
 
 ## Hash Table function
-- ** 新增 **
+- **新增**
 ``` python
     def add(self, key):
         if self.contains(key):
