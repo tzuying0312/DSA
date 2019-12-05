@@ -7,7 +7,7 @@
 > 以下圖為例來說明
 > 1. 首先我們會考慮如何存入key(ex:John Smith)的數據
 > 2. 使用hash function(可能依照編碼、16進為等等的方式進行加密)
-> 3. 將求得的值除以buckets，求得餘數
+> 3. 將求得的值除以buckets的總數，求得餘數
 > 4. 將key的數據存入至求得餘數的buckets
 
 ![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hash_table.png)
