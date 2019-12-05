@@ -13,12 +13,22 @@
 ![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hash_table.png)
 
 ## Hash Table function
+
+- **hash function**
+```python
+    def fineindex(self,key):
+        from Crypto.Hash import MD5
+        h = MD5.new()
+        h.update(key.encode("utf-8"))
+        x = int(h.hexdigest(),16) #轉為16進位
+        return x % self.capacity  #除以buckets的總數，以求得key對應的位置
+```
 - **新增**
 ``` python
     def add(self, key):
-        if self.contains(key):
-            return     
-        index = self.fineindex(key)
+        if self.contains(key): #為了避免重複值得問題，因此先去檢查是否有此key的存在
+            return 若有，直接return    
+        index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
         new_node = ListNode(key)
         if self.data[index] is None:
             self.data[index] = new_node
@@ -27,7 +37,6 @@
             node = self.data[index]
             while node.next != None:
                 node = node.next
-            # self.next = node.next
             new_node.next = self.data[index]
             self.data[index] = new_node
 ```
