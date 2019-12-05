@@ -1,18 +1,22 @@
-class ListNode:   
+class ListNode: 
+    
     def __init__(self, val):
         self.val = val
         self.next = None
 
 class MyHashSet:  
+    
     def __init__(self, capacity=5):
         self.capacity = capacity
-        self.data = [None] * capacity       
+        self.data = [None] * capacity   
+        
     def fineindex(self,key):
         from Crypto.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         x = int(h.hexdigest(),16)
         return x % self.capacity  
+    
     def add(self, key):
         if self.contains(key):
             return     
@@ -28,6 +32,7 @@ class MyHashSet:
             # self.next = node.next
             new_node.next = self.data[index]
             self.data[index] = new_node
+            
     def remove(self, key):
         if self.contains(key):
             index = self.fineindex(key)
@@ -41,6 +46,7 @@ class MyHashSet:
             return True
         else:
             return False
+        
     def contains(self, key):
         index = self.fineindex(key)
         if self.data[index] is None:
