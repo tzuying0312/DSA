@@ -15,6 +15,7 @@
 ## Hash Table function
 
 - **hash function**
+> 加密動作，將key經過加密並找到自己的buckets
 ```python
     def fineindex(self,key):
         from Crypto.Hash import MD5
@@ -23,6 +24,7 @@
         x = int(h.hexdigest(),16) #轉為16進位
         return x % self.capacity  #除以buckets的總數，以求得key對應的位置
 ```
+
 - **新增**
 ``` python
     def add(self, key):
@@ -30,16 +32,49 @@
             return 若有，直接return    
         index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
         new_node = ListNode(key)
-        if self.data[index] is None:
-            self.data[index] = new_node
+        if self.data[index] is None: #如果data[index]為空
+            self.data[index] = new_node #直接放入
             return True
         else:
             node = self.data[index]
-            while node.next != None:
-                node = node.next
+            while node.next != None: #在這裡我們要尋找空的位置，讓key放入
+                node = node.next #若不為空，我們就跳下一位置，直到有空位
             new_node.next = self.data[index]
-            self.data[index] = new_node
+            self.data[index] = new_node #放入
 ```
+- **刪除**
+
+``` python
+    def remove(self, key):
+        if self.contains(key): #先檢查是否有此key，有則尋找位置
+            index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
+            node = self.data[index] 
+            if node.val == key: #若值等於key值
+                self.data[index] = node.next #將值指向下一個(刪除完成)
+                return
+            else: #還沒找到繼續往後找
+                while node.next != None and node.val != key :
+                    node.next = node.next.next #node.next #再只向後一位，直到找到
+            return True
+        else:
+            return False 若沒有直接回傳False
+```
+- **查詢**
+
+``` python
+    def contains(self, key):
+        index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
+        if self.data[index] is None: #若data[index]不存在或沒有值
+            return False #直接回傳False
+        else:
+            node = self.data[index]
+            while node: 
+                if node.val == key: #若值等於key
+                    return True #回傳True
+                node = node.next #不等於，往後找
+            return False
+``` 
+
 
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
