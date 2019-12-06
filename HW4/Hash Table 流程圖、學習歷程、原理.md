@@ -139,6 +139,12 @@
 >:這邊的remove與add的情況類似，在此僅能remove buckets的最後一位，ex:c與ca皆add在index為2的地方。但在remove時只能將ca去掉。
 > 因此在else的部分需做更改
 
+    在此我皆未處理如果有重複值發生的問題。
+>解決辦法 : 將key add時，先確認是否key已存在，因此我加入
+```python
+        if self.contains(key):
+            return     
+```
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
 
