@@ -60,4 +60,4 @@ class MyHashSet:
             return False
         
 #參考資料
-https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
+#https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
