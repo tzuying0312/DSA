@@ -27,7 +27,9 @@
 
 - **新增**
 > 新增前先查詢是否有此key的存在
+
 > 有就不必再次新增
+
 > 沒有就去尋找適當的buckets位置
 ``` python
     def add(self, key):
@@ -47,7 +49,9 @@
 ```
 - **刪除**
 > 刪除前先查詢是否有此key的存在
+
 > 沒有就不必刪除
+
 > 有就去尋找key的buckets位置，並將它指向下一位(刪除完成)
 ``` python
     def remove(self, key):
@@ -66,7 +70,9 @@
 ```
 - **查詢**
 > 查詢前先看位置是否有東西，沒有即可直接回傳False
+
 > 有東西就去做確認是否是key值
+
 > 若不是要找的key，往後找
 ``` python
     def contains(self, key):
