@@ -88,6 +88,17 @@
 [繪圖工具--draw.io](https://www.draw.io/)
 
 ## 學習歷程
+
+```python
+    def findindex(self,key):
+        from Crypto.Hash import MD5
+        h = MD5.new()
+        h.update(key.encode("utf-8"))
+        x = int(h.hexdigest(),16)
+        return x % self.capacity  
+```
+>因為在任何一個function，我們都必須對key加密，並且找到buckets的位置，因此我將這部分另寫成一個。
+
 ```python
     def add(self,key:int):
         index = self.findindex(key)
@@ -104,7 +115,29 @@
 > 要的應該是該data的index是否為空，才可放入。
 
 >- **隱藏錯誤**
->這邊的add僅能將buckets為空的放入，ex:c與ca皆為在index為2的地方，但若c先add，ca將無法再add。
+>:這邊的add僅能將buckets為空的放入，ex:c與ca皆為在index為2的地方，但若c先add，ca將無法再add。
+
+```python
+    def remove(self, key):
+        if self.contains(key):
+            index = self.fineindex(key)
+            node = self.data[index]
+            if node and node.val == key:
+                self.data[index] = node.next
+                return
+            else:
+                node = self.data[index]
+                while self.node.next.data != node.next :
+                    
+                    node = node.next
+                self.next = node.net.next
+            return True
+        else:
+            return False
+```
+>- **隱藏錯誤**
+>:這邊的remove與add的情況類似，在此僅能remove buckets的最後一位，ex:c與ca皆add在index為2的地方。但在remove時只能將ca去掉。
+> 因此在else的部分需做更改
 
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
