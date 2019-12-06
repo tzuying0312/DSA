@@ -87,6 +87,39 @@
 ![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hashtable.jpg)
 [繪圖工具--draw.io](https://www.draw.io/)
 
+## 學習歷程
+```python
+    def add(self,key:int):
+        index = self.findindex(key)
+        new_node = ListNode(key)
+        if self.value[index] is None:
+            self.value[index] = new_node
+        else:
+            node = self.data[idx]
+            while node.next != None:
+                node = node.next
+            self.node = node
+```
+    錯誤原因:'MyHashSet' object has no attribute 'value'
+>要得應該是該data的index是否為空，才可放入。
+
+```python
+    def add(self,key:int):
+        index = self.findindex(key)
+        new_node = ListNode(key)
+        if self.value[index] is None:
+            self.value[index] = new_node
+        else:
+            node = self.data[idx]
+            while node.next != None:
+                node = node.next
+            self.node = node
+```
+    錯誤原因1.:'MyHashSet' object has no attribute 'value'
+>要的應該是該data的index是否為空，才可放入。
+> **隱藏錯誤**
+>這邊的add僅能將buckets為空的放入，意思為:c與ca皆為在index為2的地方，但若c先add，ca將無法再add進。
+
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
 
