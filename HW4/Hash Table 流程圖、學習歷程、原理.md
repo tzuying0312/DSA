@@ -61,7 +61,9 @@
             return False 若沒有直接回傳False
 ```
 - **查詢**
->查詢前先看位置是否有東西，沒有即可直接回傳False，有就往後找
+>查詢前先看位置是否有東西，沒有即可直接回傳False
+>有東西就去做確認是否是key值
+>若不是要找的key，往後找
 ``` python
     def contains(self, key):
         index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
