@@ -84,8 +84,8 @@
 ``` 
 
 ## 流程圖
-
-
+![hash_table](https://github.com/tzuying0312/Learning-Code/blob/master/photo/hashtable.jpg)
+[繪圖工具--draw.io](https://www.draw.io/)
 
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
