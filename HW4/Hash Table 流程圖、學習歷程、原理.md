@@ -17,7 +17,7 @@
 - **hash function**
 > 加密動作，將key經過加密並找到自己的buckets
 ```python
-    def fineindex(self,key):
+    def findindex(self,key):
         from Crypto.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -33,7 +33,7 @@
     def add(self, key):
         if self.contains(key): #為了避免重複值得問題，因此先去檢查是否有此key的存在
             return 若有，直接return    
-        index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
+        index = self.findindex(key) #尋找加密後(hash function)對應到的buckets
         new_node = ListNode(key)
         if self.data[index] is None: #如果data[index]為空
             self.data[index] = new_node #直接放入
@@ -52,7 +52,7 @@
 ``` python
     def remove(self, key):
         if self.contains(key): #先檢查是否有此key，有則尋找位置
-            index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
+            index = self.findindex(key) #尋找加密後(hash function)對應到的buckets
             node = self.data[index] 
             if node.val == key: #若值等於key值
                 self.data[index] = node.next #將值指向下一個(刪除完成)
@@ -71,7 +71,7 @@
 > - 若不是要找的key，往後找
 ``` python
     def contains(self, key):
-        index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
+        index = self.findindex(key) #尋找加密後(hash function)對應到的buckets
         if self.data[index] is None: #若data[index]不存在或沒有值
             return False #直接回傳False
         else:
@@ -104,7 +104,7 @@
 > 要的應該是該data的index是否為空，才可放入。
 
 >- **隱藏錯誤**
->這邊的add僅能將buckets為空的放入，ex:c與ca皆為在index為2的地方，但若c先add，ca將無法再add進。
+>這邊的add僅能將buckets為空的放入，ex:c與ca皆為在index為2的地方，但若c先add，ca將無法再add。
 
 ###### 參考資料
 [圖片來源](https://www.wikiwand.com/en/Hash_table)
