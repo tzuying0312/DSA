@@ -101,11 +101,9 @@
             self.node = node
 ```
 >- 錯誤原因:'MyHashSet' object has no attribute 'value'。
-
 > 要的應該是該data的index是否為空，才可放入。
 
 >- **隱藏錯誤**
-
 >這邊的add僅能將buckets為空的放入，ex:c與ca皆為在index為2的地方，但若c先add，ca將無法再add進。
 
 ###### 參考資料
