@@ -26,6 +26,7 @@
 ```
 
 - **新增**
+>新增前先查詢是否有此key的存在，有就不必再次新增，沒有就去尋找適當的buckets位置
 ``` python
     def add(self, key):
         if self.contains(key): #為了避免重複值得問題，因此先去檢查是否有此key的存在
@@ -43,7 +44,7 @@
             self.data[index] = new_node #放入
 ```
 - **刪除**
-
+>刪除前先查詢是否有此key的存在，沒有就不必刪除，有就去尋找key的buckets位置，並將它指向下一位(刪除完成)
 ``` python
     def remove(self, key):
         if self.contains(key): #先檢查是否有此key，有則尋找位置
@@ -60,7 +61,7 @@
             return False 若沒有直接回傳False
 ```
 - **查詢**
-
+>查詢前先看位置是否有東西，沒有即可直接回傳False，有就往後找
 ``` python
     def contains(self, key):
         index = self.fineindex(key) #尋找加密後(hash function)對應到的buckets
