@@ -10,7 +10,7 @@ class MyHashSet:
         self.capacity = capacity
         self.data = [None] * capacity   
         
-    def fineindex(self,key):
+    def findindex(self,key):
         from Crypto.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -20,7 +20,7 @@ class MyHashSet:
     def add(self, key):
         if self.contains(key):
             return     
-        index = self.fineindex(key)
+        index = self.findindex(key)
         new_node = ListNode(key)
         if self.data[index] is None:
             self.data[index] = new_node
@@ -35,7 +35,7 @@ class MyHashSet:
             
     def remove(self, key):
         if self.contains(key):
-            index = self.fineindex(key)
+            index = self.findindex(key)
             node = self.data[index]
             if node.val == key:
                 self.data[index] = node.next
@@ -48,7 +48,7 @@ class MyHashSet:
             return False
         
     def contains(self, key):
-        index = self.fineindex(key)
+        index = self.findindex(key)
         if self.data[index] is None:
             return False
         else:
@@ -59,3 +59,5 @@ class MyHashSet:
                 node = node.next
             return False
         
+#參考資料
+https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
