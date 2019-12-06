@@ -26,7 +26,9 @@
 ```
 
 - **新增**
->新增前先查詢是否有此key的存在，有就不必再次新增，沒有就去尋找適當的buckets位置
+>新增前先查詢是否有此key的存在
+>有就不必再次新增
+>沒有就去尋找適當的buckets位置
 ``` python
     def add(self, key):
         if self.contains(key): #為了避免重複值得問題，因此先去檢查是否有此key的存在
@@ -44,7 +46,9 @@
             self.data[index] = new_node #放入
 ```
 - **刪除**
->刪除前先查詢是否有此key的存在，沒有就不必刪除，有就去尋找key的buckets位置，並將它指向下一位(刪除完成)
+>刪除前先查詢是否有此key的存在
+>沒有就不必刪除
+>有就去尋找key的buckets位置，並將它指向下一位(刪除完成)
 ``` python
     def remove(self, key):
         if self.contains(key): #先檢查是否有此key，有則尋找位置
