@@ -146,10 +146,10 @@
             return     
 ```
 ###### 參考資料
-[圖片來源](https://www.wikiwand.com/en/Hash_table)https://www.wikiwand.com/en/Hash_table
+[圖片來源]https://www.wikiwand.com/en/Hash_table
 
-[維基百科](https://zh.wikipedia.org/wiki/%E5%93%88%E5%B8%8C%E8%A1%A8)https://zh.wikipedia.org/wiki/%E5%93%88%E5%B8%8C%E8%A1%A8
+[維基百科]https://zh.wikipedia.org/wiki/%E5%93%88%E5%B8%8C%E8%A1%A8
 
-[程式碼與原理](https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-)https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-
+[程式碼與原理]https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-
 
 演算法圖鑑
