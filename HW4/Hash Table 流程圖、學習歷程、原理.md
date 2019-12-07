@@ -145,6 +145,35 @@
         if self.contains(key):
             return     
 ```
+------------------------------------------------
+>第一次分數出來，才發現其實自己並沒有加密成功。
+```python
+    def findindex(self,key):
+        from Crypto.Hash import MD5
+        h = MD5.new()
+        h.update(key.encode("utf-8"))
+        x = int(h.hexdigest(),16)
+        return x % self.capacity  
+    
+    def add(self, key):
+        if self.contains(key):
+            return     
+        index = self.findindex(key)
+        new_node = ListNode(key)
+        if self.data[index] is None:
+            self.data[index] = new_node
+            return True
+        else:
+            node = self.data[index]
+            while node.next != None:
+                node = node.next
+            # self.next = node.next
+            new_node.next = self.data[index]
+            self.data[index] = new_node
+```
+>假設key為dog，雖然findindex有經過加密並找到位置，但new_node = ListNode(key)，是直接將dog本身放入，因此錯誤。
+
+
 ###### 參考資料
 [圖片來源]https://www.wikiwand.com/en/Hash_table
 
