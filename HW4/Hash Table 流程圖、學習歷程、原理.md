@@ -172,7 +172,22 @@
             self.data[index] = new_node
 ```
 >假設key為dog，雖然findindex有經過加密並找到位置，但new_node = ListNode(key)，是直接將dog本身放入，因此錯誤。
-
+```python
+    def findindex(self,key):
+        from Crypto.Hash import MD5
+        h = MD5.new()
+        h.update(key.encode("utf-8"))
+        x = int(h.hexdigest(),16)
+        return x  
+    
+    def add(self, key):
+        if self.contains(key):
+            return     
+        key = self.findindex(key)
+        index = key % self.capacity
+        new_node = ListNode(key)
+```
+> 在這邊key = self.findindex(key)才表示key去做加密動作。
 
 ###### 參考資料
 [圖片來源]https://www.wikiwand.com/en/Hash_table
