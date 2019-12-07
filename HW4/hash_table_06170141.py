@@ -15,12 +15,13 @@ class MyHashSet:
         h = MD5.new()
         h.update(key.encode("utf-8"))
         x = int(h.hexdigest(),16)
-        return x % self.capacity  
+        return x  
     
     def add(self, key):
         if self.contains(key):
             return     
-        index = self.findindex(key)
+        key = self.findindex(key)
+        index = key % self.capacity
         new_node = ListNode(key)
         if self.data[index] is None:
             self.data[index] = new_node
@@ -35,7 +36,8 @@ class MyHashSet:
             
     def remove(self, key):
         if self.contains(key):
-            index = self.findindex(key)
+            key = self.findindex(key)
+            index = key % self.capacity
             node = self.data[index]
             if node.val == key:
                 self.data[index] = node.next
@@ -48,7 +50,8 @@ class MyHashSet:
             return False
         
     def contains(self, key):
-        index = self.findindex(key)
+        key = self.findindex(key)
+        index = key % self.capacity
         if self.data[index] is None:
             return False
         else:
