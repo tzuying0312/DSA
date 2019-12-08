@@ -50,8 +50,8 @@ class MyHashSet:
             return False
         
     def contains(self, key):
-        key = self.findindex(key)
-        index = key % self.capacity
+        x = self.findindex(key)
+        index = x % self.capacity
         if self.data[index] is None:
             return False
         else:
