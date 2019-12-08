@@ -14,8 +14,8 @@ class MyHashSet:
         from Crypto.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
-        x = int(h.hexdigest(),16)
-        return x  
+        h = int(h.hexdigest(),16)
+        return h
     
     def add(self, key):
         if self.contains(key):
@@ -50,8 +50,8 @@ class MyHashSet:
             return False
         
     def contains(self, key):
-        x = self.findindex(key)
-        index = x % self.capacity
+        key = self.findindex(key)
+        index = key % self.capacity
         if self.data[index] is None:
             return False
         else:
