@@ -50,6 +50,8 @@ def BFS(self, s):
     return q1
 
 ```
+
+- 錯誤程式碼
 ```python
 def BFS(self, s):
     q1=[]
@@ -108,6 +110,8 @@ def DFS(self, s):
 
     return q2
 ```
+
+- 錯誤程式碼
 ```python
 def lenx(self,stack):
     return len(stack)
