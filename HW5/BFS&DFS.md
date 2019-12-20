@@ -24,7 +24,7 @@
 - **廣度優先搜尋在搜尋頂點時，優先搜尋離起點較近的頂點**
 - 頂點選項是用**先進先出(FIFO)** 的方式管理。
 - 流程圖
-![](https://i.imgur.com/jY39H3L.jpg)
+![BFS](https://github.com/tzuying0312/Learning-Code/blob/master/photo/BFS.jpg)
 >設立G為起點位置。
 
 >首先G能走到F位置，因此將F放入第一個List。
@@ -81,7 +81,7 @@ def BFS(self, s):
 
 - 頂點選項是用**後進先出(LIFO)** 的方式管理。
 - 流程圖
-![](https://i.imgur.com/Ch0Tvp2.jpg)
+![DFS](https://github.com/tzuying0312/Learning-Code/blob/master/photo/DFS.jpg)
 
 >設立2為起點。
 
