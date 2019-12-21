@@ -21,18 +21,18 @@ class Graph:
         return q1 
 
     def DFS(self, s):
-        stack=[] 
-        stack.append(s)
-        q2=[]#最終的list
-        while (len(stack)>0): #有東西
-            node=stack.pop() #刪除第一個list
-            q2.append(node) #加入至最終的list
+        stack=[] #最終的list
+        q2=[]
+        q2.append(s)
+        while (len(q2)>0): #有東西
+            node=q2.pop() #刪除第一個list
+            stack.append(node) #加入至最終的list
             nodes = self.graph[node]#找出s對應的其他頂點
             for i in nodes:
-                if i not in q2:#確認是否還未存進至
-                    stack.append(i) 
+                if i not in q2 and i not in stack:#確認是否還未存進至
+                    q2.append(i) 
 
-        return q2
+        return stack
     
 #參考資料     
 #演算法圖鑑(包含原理、流程、比較)
