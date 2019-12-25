@@ -9,7 +9,7 @@
 
 ![](https://i.imgur.com/xKbr4Iv.jpg)
 
-> 可以點擊左上HEROKU，可以看到自己所有的app，右邊會多了conda，此時 git push 就不會有問題。
+> 點擊左上HEROKU，可以看到自己所有的app，右邊會多了conda，此時 git push 就不會有問題。
 
 ![](https://i.imgur.com/WzcuN95.jpg)
 
