@@ -27,4 +27,4 @@
 >* [安裝heroku](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)
 >* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
 >* [ngrok註冊與範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)
->* [linebot-echobot](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)
+>* [linebot-建造echobot](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)
