@@ -22,8 +22,8 @@
 | 155.Min Stack                    | [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)                                                   | 
 | 232.Implement Queue using Stacks |  [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py) |  
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Title         | Solution      |
+| :----------- :|:-------------:| 
 | 第三欄        | 靠右對齊      | $1600 |
 | 第二欄        | 置中對齊      |   $12 |
 | 斑馬條紋      | 是整齊的      |    $1 |
