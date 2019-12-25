@@ -19,7 +19,7 @@
 ## Codesignal
 >* [01meet python](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/01meet%20python.md)
 >* [02slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/02slithering%20in%20strings.md)
->* [3lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/03lurking%20in%20lists.md)
+>* [03lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/03lurking%20in%20lists.md)
 ## LeetCode
 >* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
 >* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
