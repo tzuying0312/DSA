@@ -25,4 +25,5 @@
 >* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
 ## python flask
 >* [安裝heroku](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)
->* [部屬至heroku範例1](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
+>* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
+>* [ngrok註冊與範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)
