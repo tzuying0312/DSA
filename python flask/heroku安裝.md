@@ -1,5 +1,7 @@
 ## Heroku
->Heroku是一個支援多種程式語言的雲平台即服務(PaaS)。可以將程式碼推播上去，佈署各種網站。可以呼叫此網址做事情，ex : Webhook。
+>Heroku是一個支援多種程式語言的雲平台即服務(PaaS)。
+可以將程式碼推播上去，佈署各種網站。
+可以呼叫此網址做事情，ex : Webhook。
 ## 安裝流程
 1. 申請Heroku帳號
 >[Heroku官網](https://www.heroku.com/)
