@@ -17,12 +17,7 @@
 
 * LeetCode
 
-| Title         | Solution      | 
-| :--------- -: |:-------------:|
-| 155.Min Stack                    | [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)                                                   | 
-| 232.Implement Queue using Stacks |  [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py) |  
-
 | Title        | Solution        |
-| ------------- |:-------------:|
-| 155.Min Stack    | [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)      | 
-| 232.Implement Queue using Stacks   | [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)      | 
+| :-------------: |:-------------:|
+| [155.Min Stack](https://leetcode.com/problems/min-stack/)   | [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)      | 
+| [232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)   | [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)      | 
