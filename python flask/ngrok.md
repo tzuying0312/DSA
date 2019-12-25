@@ -54,3 +54,5 @@ if __name__ == "__main__":
 >最後到網址查看
 
 ![](https://i.imgur.com/jzdG4dP.jpg)
+
+參考資料:https://xiaosean.github.io/server/2018-04-18-Flask_Ngrok/
