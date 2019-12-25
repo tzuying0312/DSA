@@ -14,3 +14,10 @@
 [Hash Table](https://github.com/tzuying0312/Learning-Code/tree/master/week11)
 * week12:
 [BFS & DFS](https://github.com/tzuying0312/Learning-Code/tree/master/week12%2613)
+
+* LeetCode
+
+| Title         | Solution          | 
+| :--------- -: |:-------------:|
+| 155.Min Stack | [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)  | 
+| 232.Implement Queue using Stacks |  [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py) |  
