@@ -12,3 +12,5 @@
 [BST](https://github.com/tzuying0312/Learning-Code/tree/master/week10)
 * week11:
 [Hash Table](https://github.com/tzuying0312/Learning-Code/tree/master/week11)
+* week12:
+[BFS & DFS](https://github.com/tzuying0312/Learning-Code/tree/master/week12%2613)
