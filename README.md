@@ -24,6 +24,5 @@
 
 | Title        | Solution        |
 | ------------- |:-------------:|
-| 第三欄        | 靠右對齊      | 
-| 第二欄        | 置中對齊      | 
-| 斑馬條紋      | 是整齊的      |  
+| 155.Min Stack    | 靠右對齊      | 
+| 232.Implement Queue using Stacks   | 置中對齊      | 
