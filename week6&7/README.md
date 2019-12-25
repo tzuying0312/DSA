@@ -35,7 +35,7 @@ Merge Sort屬於Divide and Conquer演算法，把問題先拆解(divide)成子�
 ## 流程示意圖
 ![mergesort](https://github.com/tzuying0312/Learning-Code/blob/master/photo/mergesort.png)
 
-## mergesort vs heapsort
+## 比較
 ![heapsort vs heapsort](https://github.com/tzuying0312/Learning-Code/blob/master/photo/mergevsheap.jpg)
 
 由上圖可以知道，其實整體的時間是一樣的。兩者差異在於排序方式。
