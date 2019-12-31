@@ -25,10 +25,10 @@
 >* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
 >* [ngrok註冊與範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)
 >* [linebot-建造echobot](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)
->* [linebot+cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
+>* [linebot-cloud speech to text api(語音辨識)](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
 ## GCP
 >* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
->* [linebot+cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
+>* [cloud speech to text api-linebot(語音辨識)](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
 ## LeetCode
 >* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
 >* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
