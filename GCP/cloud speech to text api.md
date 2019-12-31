@@ -56,7 +56,7 @@ with io.open(file_name, 'rb') as audio_file:
 
 config = types.RecognitionConfig(
     encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-    enable_automatic_punctuation=True,#標ˋ點符號
+    enable_automatic_punctuation=True,#標點符號
     sample_rate_hertz=16000,#取樣率
     language_code='zh-TW')
     
