@@ -20,13 +20,16 @@
 >* [01-meet python](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/01meet%20python.md)
 >* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/02slithering%20in%20strings.md)
 >* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/03lurking%20in%20lists.md)
-## LeetCode
->* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
->* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
 ## python flask
 >* [安裝heroku](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)
 >* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
 >* [ngrok註冊與範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)
 >* [linebot-建造echobot](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)
+>* [linebot+cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
 ## GCP
 >* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
+>* [linebot+cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
+## LeetCode
+>* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
+>* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
+
