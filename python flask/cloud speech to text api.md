@@ -18,7 +18,7 @@
  
 1. 轉檔問題(.m4a->.wav)
 > 若是直接轉檔換發生**FileNotFoundError: [WinError 2] 系统找不到指定的文件。** 錯誤是少安裝了ffmpeg ，但下載此套件也沒用，因此直接到官網下載[ffmpeg](http://www.ffmpeg.org/download.html#build-windows)，並以**AudioSegment.converter** 給他指定路徑。
-```python=
+```python
 import ffmpeg
 from pydub import AudioSegment
 
@@ -31,7 +31,7 @@ m4a_version.export("C:\\Users\\tzuying0312\\Desktop\\SPA_2_11_24.wav", format="w
 
 2. wav(32bit->16bit)
 >在 cloud speech to txet 的 wav 檔中，只能為16bit。
-```python=
+```python
 data, samplerate = sf.read(file_name)
 sf.write(file_name, data, samplerate, subtype='PCM_16')
 
