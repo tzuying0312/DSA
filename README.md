@@ -28,7 +28,6 @@
 >* [linebot-cloud speech to text api(語音辨識)](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
 ## GCP
 >* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
->* [cloud speech to text api-linebot(語音辨識)](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
 ## LeetCode
 >* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
 >* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
