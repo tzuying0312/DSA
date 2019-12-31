@@ -2,11 +2,17 @@
 ## google cloud speech to text api
 * 事前準備
 1. 登入 [google platfrom](https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F%3Fhl%3Dzh-TW%26ref%3Dhttps%3A%2F%2Fwww.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F%3Fhl%3Dzh-TW%26ref%3Dhttps%3A%2F%2Fwww.google.com%2F&hl=zh-TW&flowName=GlifWebSignIn&flowEntry=ServiceLogin) 設立專案
+
 2. 到左邊主選單選擇API和服務，按下**啟用API和服務**。![](https://i.imgur.com/zm7xADO.png)
+
 3. 搜尋cloud speech to text，並按下啟用。![](https://i.imgur.com/f3fhDho.png)
+
 4. 到左邊選單選擇憑證，按下建立憑證，並選擇服務帳戶。![](https://i.imgur.com/Kl94sqC.png)
+
 5. 下載 JSON 格式的私密金鑰。
+
 6. 安裝並初始化 [Cloud SDK](https://cloud.google.com/sdk/docs/)。
+
 
 * 程式碼
  
@@ -30,6 +36,7 @@ data, samplerate = sf.read(file_name)
 sf.write(file_name, data, samplerate, subtype='PCM_16')
 
 ```
+
 3. 轉成文字
 >**note** : 若client = speech.SpeechClient()，出現錯誤或警告時，加上credential_path，給他剛剛下載json檔的金鑰即可。
 ```python
@@ -58,4 +65,5 @@ for result in response.results:
     print('Transcript: {}'.format(result.alternatives[0].transcript))
     
 ```
+
 參考資料:https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries#client-libraries-usage-python
