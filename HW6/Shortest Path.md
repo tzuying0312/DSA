@@ -84,6 +84,9 @@
 >* E-G:9，將E-G連接起來。
 >* F-G:11，FG連接會導致FDABEG循環，跳過。
 >* D-E:15，DE連接會導致DABE循環，跳過。
+
+![](https://i.imgur.com/X657D9t.png)
+
 ## 程式碼
 ```python=
 from collections import defaultdict 
@@ -129,7 +132,6 @@ class Graph():
             j += 1
         return dictionary
 ```
-![](https://i.imgur.com/X657D9t.png)
 ## 參考資料:
 
 * 原理、程式碼
