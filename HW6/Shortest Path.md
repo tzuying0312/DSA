@@ -88,7 +88,7 @@
 ![](https://i.imgur.com/X657D9t.png)
 
 ## 程式碼
-```python=
+```python
 from collections import defaultdict 
 
 #Class to represent a graph 
