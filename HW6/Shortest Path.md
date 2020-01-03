@@ -144,6 +144,7 @@ https://high-python-ext-3-algorithms.readthedocs.io/ko/latest/chapter9.html
 圖片來源
 
 https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95#/media/File:Kruskal_Algorithm_6.svg
+
 https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.g7b9afdb0e7_0_15
 
 書籍
