@@ -1,15 +1,16 @@
 
 ## Class
-* week1:課程介紹  
+* week1 : 課程介紹  
   * [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
-* week2:Linked list 
+* week2 : Linked list 
 >Linked list是一種常見的資料結構，使用node(節點)來記錄、表示、儲存資料(data)，並利用每個node中的pointer指向下一個node，藉此將多個node串連起來，形成Linked list。
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)、
   [Linked list筆記](https://github.com/tzuying0312/Learning-Code/tree/master/week2)
 * week3:Stack & Queue
 >當我們碰到大量資料的時候，通常都會用陣列來處理，資料結構中處理陣列有兩種較常見的方式：stack與queue。
 >
->先進後出(FILO First In Last Out)的資料結構，代表先進去的資料最後出來。
+>Stack : 先進後出(FILO First In Last Out)的資料結構，代表先進去的資料最後出來。  
+>Queue : 排隊的概念，先到先贏，先進先出(FIFO First in First out)。
 ex：疊盤子、發牌、走迷宮
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)、
   [Stack & Queue筆記](https://github.com/tzuying0312/Learning-Code/tree/master/week3)
