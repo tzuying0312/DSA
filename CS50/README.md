@@ -1,4 +1,5 @@
 [Flask - Lecture 2 - CS50's Web Programming with Python and JavaScript](https://www.youtube.com/watch?v=j5wysXqaIV8)
+>40:33開始
 
 -實作、延伸
 
