@@ -17,9 +17,9 @@
 >* week12:
 >[BFS & DFS](https://github.com/tzuying0312/Learning-Code/tree/master/week12%2613)
 ## Codesignal
->* [01-meet python](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/01meet%20python.md)
->* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/02slithering%20in%20strings.md)
->* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/03lurking%20in%20lists.md)
+>* [01-meet python](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/01meet%20python.md)
+>* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/02slithering%20in%20strings.md)
+>* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/03lurking%20in%20lists.md)
 ## python flask
 >* [安裝heroku](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)
 >* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
@@ -29,6 +29,6 @@
 ## GCP
 >* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
 ## LeetCode
->* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/week3/155.min-stack(array).py)
->* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/week3/232.implement-queue-using-stacks(array).py)
+>* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/155_Min%20Stack%20_06170141.py)
+>* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170141.py)
 
