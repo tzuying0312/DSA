@@ -1,6 +1,7 @@
 
 ## Class
 >* week1:課程介紹
+>
 >[課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
 >* week2:Linked list
 >[課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)、
@@ -23,7 +24,7 @@
 >* week8:Binary Tree
 >[課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSC3P8sGElP48mJTjqT309470SmTFBwJXWsU9hTX2hg5tVpiG4yC703qA7ibPep-Qakmm2Mw_F-ScZh/pub?start=false&loop=false&delayms=3000&slide=id.p)
 >* week9:BlockChain Scratch
->[課程連結](https://www.youtube.com/watch?v=1aWQz5PemHY&feature=youtu.be
+>[課程連結](https://www.youtube.com/watch?v=1aWQz5PemHY&feature=youtu.be)
 >* week10:BST
 >[課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQgUh73yvSdxAvMH50DHWJ5lsCX8-daMxtoltU9rYW7xCmqYz2A1wOv0Vcx_F9KO5ZUvZBv3IF1TjGi/pub?start=false&loop=false&delayms=3000&slide=id.p)、
 >[BST](https://github.com/tzuying0312/Learning-Code/tree/master/week10)
