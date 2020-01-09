@@ -1,4 +1,11 @@
-
+## About Me
+東吳大學巨資學生
+## :memo: In Here 
+- [x] class
+- [x] Codesignal
+- [x] python flask
+- [x] LeetCode
+- [x] GCP
 ## Class
 * week1 : 課程介紹  
   * [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
