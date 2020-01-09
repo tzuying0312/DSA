@@ -53,8 +53,7 @@ ex：疊盤子、發牌、走迷宮
 >通過一個關於鍵值的函數，將所需查詢的數據映射到表中一個位置來查詢記錄。
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vT1HO9Nl475k2bR0l1x8_Tr4V5Wzx0BEqp9bpmHckvj8kTeJehhYVlOJUDVPhLQm6kjGCJ_sLMSBUw5/pub?start=false&loop=false&delayms=3000&slide=id.p)、
  [Hash Table 筆記](https://github.com/tzuying0312/Learning-Code/blob/master/HW4/Hash%20Table%20%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E3%80%81%E5%8E%9F%E7%90%86.md)
-* week12 : BFS
->廣度優先搜尋演算法(Breadth-First-Search,BFS)  
+* week12 : BFS 
 >圖形搜尋演算法。  
 >頂點選項是用先進先出(FIFO) 的方式管理。  
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSYJYXUXvGAeTZ5fknxj_-EPm3zxgy4ITdImrXzy63Y-iZgs8uwVNmOaZlnx9fUNzsbo8kphvMTa0c4/pub?start=false&loop=false&delayms=3000&slide=id.p)、
