@@ -85,7 +85,7 @@ def baseConversion(n, x):
     return hex(int(n,x))[2:]
 ```
     如果只打return hex(int(n,x))答案會出現以下圖片，因此我們從2的位置開始取。
-![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/codesignal/photo/baseConversion.jpg)
+![GITHUB](https://github.com/tzuying0312/Learning-Code/blob/master/photo/baseConversion.jpg)
 
 ## 9 mexFunction
 You've just started to study impartial games, and came across an interesting theory. The theory is quite complicated, but it can be narrowed down to the following statements: solutions to all such games can be found with the mex function. Mex is an abbreviation of minimum excludant: for the given set s it finds the minimum non-negative integer that is not present in s.
