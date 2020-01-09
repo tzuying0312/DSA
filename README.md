@@ -84,16 +84,24 @@ ex：疊盤子、發牌、走迷宮
 >* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/02slithering%20in%20strings.md)
 >* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/03lurking%20in%20lists.md)
 ## python flask
->* [安裝heroku](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)
->* [部屬至heroku範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)
->* [ngrok註冊與範例](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)
->* [linebot-建造echobot](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)
->* [linebot-cloud speech to text api(語音辨識)](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)
+| Jump To         | Implement                |
+| ----------------- |:----------------------- |
+| heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
+| deploy to heroku | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)     |
+| ngrok安裝及部署   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)    |
+| python flask + linebot(echo)   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)    | 
+| linebot+cloud speech to text api   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)|
+
 ## GCP
 >* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
 ## LeetCode
->* [155.Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/155_Min%20Stack%20_06170141.py)
->* [232.Implement Queue using Stacks ](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170141.py)
+| #	Title         | 
+| ----------------- |
+| [155_Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/155_Min%20Stack%20_06170141.py)| 
+| [232_Implement Queue using Stacks](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170141.py)| 
+| [283_Move Zeroes](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/283_Move%20Zeroes_06170141.py)| 
+| [561_Array Partition I](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/561_Array%20Partition%20I_06170141.py)| 
+| [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
 
 #### 對課程的簡單心得
 >第一次上Linked list時，就發現這堂課我可能需要很努力，整學期下來我學到許多東西，在程式雖然沒辦法達到老師的需求，但算是進步許多。記得面試或做專案前，時常被問我有沒有額外的東西，我想github就是一個很好的證明。另外我也想說，對於程式的要求，其實我不認為必須要原創，太多東西都是從網路上學來，例如quicksort，新增3個list，並一一比較放加入的這個方法，多數人並不是只抄，而是這段程式碼好理解且我們能夠打出。當然，現階段是我能力不足，才會認為重要的是理解而不是原創，所以我也尊重助教及老師。謝謝。
