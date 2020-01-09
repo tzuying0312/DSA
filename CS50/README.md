@@ -3,7 +3,7 @@
 
 -實作、延伸
 
-| Features          | Tutorials               |
+| Implement          | Jump To               |
 | ----------------- |:----------------------- |
 | heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
 | deploy to heroku | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)     |
