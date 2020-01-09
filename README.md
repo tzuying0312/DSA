@@ -8,7 +8,7 @@
 - [x] GCP
 ## Class
 * week1 : 課程介紹  
-  * [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
+>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
 * week2 : Linked list 
 >Linked list是一種常見的資料結構，使用node(節點)來記錄、表示、儲存資料(data)，並利用每個node中的pointer指向下一個node，藉此將多個node串連起來，形成Linked list。
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)、
@@ -40,7 +40,7 @@ ex：疊盤子、發牌、走迷宮
 >二元樹為每個節點最多只有兩個分支（即不存在分支度大於2的節點）的樹結構。
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSC3P8sGElP48mJTjqT309470SmTFBwJXWsU9hTX2hg5tVpiG4yC703qA7ibPep-Qakmm2Mw_F-ScZh/pub?start=false&loop=false&delayms=3000&slide=id.p)
 * week9 : BlockChain Scratch
-  * [課程連結](https://www.youtube.com/watch?v=1aWQz5PemHY&feature=youtu.be)
+>* [課程連結](https://www.youtube.com/watch?v=1aWQz5PemHY&feature=youtu.be)
 * week10 : BST
 >二元搜尋樹（Binary Search Tree），是一棵空樹或具有下列性質的二元樹：  
 >若任意節點的左子樹不空，則左子樹上所有節點的值均小於它的根節點的值。  
@@ -76,7 +76,7 @@ ex：疊盤子、發牌、走迷宮
 >>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.p)、
 [Shortest Path 筆記](https://github.com/tzuying0312/Learning-Code/blob/master/HW6/Shortest%20Path.md)
 * week16 : Overview
-  * [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
 * week17:期末考
 * week18:放假
 ## Codesignal
