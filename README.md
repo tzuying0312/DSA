@@ -62,7 +62,7 @@ ex：疊盤子、發牌、走迷宮
 >在無向圖有權重的連通圖中找尋以下:  
 >這些邊的權重和最小。  
 >可以連通所有點且不形成循環。
-  * [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTorNDEyhYA4ZAt5jEqOmFs2cQiUAYvkTp-R0DOn9B3c1MuUecV-a1wNakFIrJxA6AoUFGzbl3OQBIJ/pub?start=false&loop=false&delayms=3000&slide=id.p)、
+>>* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vTorNDEyhYA4ZAt5jEqOmFs2cQiUAYvkTp-R0DOn9B3c1MuUecV-a1wNakFIrJxA6AoUFGzbl3OQBIJ/pub?start=false&loop=false&delayms=3000&slide=id.p)、
   [MST 筆記](https://github.com/tzuying0312/Learning-Code/blob/master/HW6/Shortest%20Path.md)
 * week15 : Shortest Path 
 >使用了廣度優先搜尋(BFS)解決賦權有向圖的單源最短路徑問題。  
