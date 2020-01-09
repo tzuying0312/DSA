@@ -97,6 +97,7 @@ ex：疊盤子、發牌、走迷宮
 | [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
 ## CS50 
 - python flask
+
 | Jump To         | Implement                |
 | ----------------- |:----------------------- |
 | heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
