@@ -103,5 +103,13 @@ ex：疊盤子、發牌、走迷宮
 | [561_Array Partition I](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/561_Array%20Partition%20I_06170141.py)| 
 | [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
 
+## HW
+>- [HW1](https://github.com/tzuying0312/Learning-Code/tree/master/HW1)
+>- [HW2](https://github.com/tzuying0312/Learning-Code/tree/master/HW2)
+>- [HW3](https://github.com/tzuying0312/Learning-Code/tree/master/HW3)
+>- [HW4](https://github.com/tzuying0312/Learning-Code/tree/master/HW4)
+>- [HW5](https://github.com/tzuying0312/Learning-Code/tree/master/HW5)
+>- [HW6](https://github.com/tzuying0312/Learning-Code/tree/master/HW6)
+
 #### 對課程的簡單心得
 >第一次上Linked list時，就發現這堂課我可能需要很努力，整學期下來我學到許多東西，在程式雖然沒辦法達到老師的需求，但算是進步許多。記得面試或做專案前，時常被問我有沒有額外的東西，我想github就是一個很好的證明。另外我也想說，對於程式的要求，其實我不認為必須要原創，太多東西都是從網路上學來，例如quicksort，新增3個list，並一一比較放加入的這個方法，多數人並不是只抄，而是這段程式碼好理解且我們能夠打出。當然，現階段是我能力不足，才會認為重要的是理解而不是原創，所以我也尊重助教及老師。謝謝。
