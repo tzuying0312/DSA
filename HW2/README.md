@@ -1,4 +1,4 @@
-HW1:Heap Sort、Merge Sort
+HW2:Heap Sort、Merge Sort
 
 content:
 > * 原理
