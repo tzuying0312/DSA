@@ -6,6 +6,8 @@
 - [x] python flask
 - [x] LeetCode
 - [x] GCP
+- [x] CS50
+- [x] HW
 ## Class
 * week1 : 課程介紹  
 >* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -93,7 +95,8 @@ ex：疊盤子、發牌、走迷宮
 | [283_Move Zeroes](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/283_Move%20Zeroes_06170141.py)| 
 | [561_Array Partition I](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/561_Array%20Partition%20I_06170141.py)| 
 | [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
-## python flask
+## CS50 
+- python flask
 | Jump To         | Implement                |
 | ----------------- |:----------------------- |
 | heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
