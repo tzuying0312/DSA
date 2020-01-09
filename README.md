@@ -1,7 +1,7 @@
 ## About Me
 東吳大學巨資學生
 ## :memo: In Here 
-- [x] class
+- [x] Class
 - [x] Codesignal
 - [x] python flask
 - [x] LeetCode
