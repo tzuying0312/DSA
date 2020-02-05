@@ -352,8 +352,7 @@ def wirte_excel(part,time,name,other,verb, noun, adj,score,magnitude,gcs_url):
 
 def finalexcel(wb,fn,part,time,name,other,verb, noun, adj,score,magnitude,gcs_url):
     ws = wb.active
-    ws['A1'] = 'gcs_url'
-    # ws['B1'] = 'complete'    
+    ws['A1'] = 'gcs_url'   
     ws['B1'] = 'part'
     ws['C1'] = 'time'
     ws['D1'] = 'name'
@@ -370,7 +369,7 @@ def finalexcel(wb,fn,part,time,name,other,verb, noun, adj,score,magnitude,gcs_ur
         react = '中立'
     else:
         react = '負面'
-    ws.append([gcs_url,'',part,str(time),name,str(other),str(verb),str(noun),str(adj) ,score,magnitude,react])    
+    ws.append([gcs_url,part,str(time),name,str(other),str(verb),str(noun),str(adj) ,score,magnitude,react])    
     wb.save(fn)
     print('success')
     tostorage(fn)
