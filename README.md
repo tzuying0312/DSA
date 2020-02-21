@@ -8,6 +8,30 @@
 - [x] GCP
 - [x] CS50
 - [x] HW
+## Codesignal
+>* [01-meet python](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/01meet%20python.md)
+>* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/02slithering%20in%20strings.md)
+>* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/03lurking%20in%20lists.md)
+## GCP
+>* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
+## LeetCode
+| #	Title         | 
+| ----------------- |
+| [155_Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/155_Min%20Stack%20_06170141.py)| 
+| [232_Implement Queue using Stacks](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170141.py)| 
+| [283_Move Zeroes](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/283_Move%20Zeroes_06170141.py)| 
+| [561_Array Partition I](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/561_Array%20Partition%20I_06170141.py)| 
+| [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
+## CS50 
+- python flask
+
+| Jump To         | Implement                |
+| ----------------- |:----------------------- |
+| heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
+| deploy to heroku | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)     |
+| ngrok安裝及部署   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)    |
+| python flask + linebot(echo)   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)    | 
+| linebot+cloud speech to text api   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)|
 ## HW
 >- [HW1](https://github.com/tzuying0312/Learning-Code/tree/master/HW1)-Quick Sort
 >- [HW2](https://github.com/tzuying0312/Learning-Code/tree/master/HW2)-Heap Sort、Merge Sort
@@ -88,27 +112,4 @@ ex：疊盤子、發牌、走迷宮
 >* [課程連結](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
 * week17:期末考
 * week18:放假
-## Codesignal
->* [01-meet python](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/01meet%20python.md)
->* [02-slithering in strings](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/02slithering%20in%20strings.md)
->* [03-lurking in lists](https://github.com/tzuying0312/Learning-Code/blob/master/Codesignal/03lurking%20in%20lists.md)
-## GCP
->* [google cloud speech to text api](https://github.com/tzuying0312/Learning-Code/blob/master/GCP/cloud%20speech%20to%20text%20api.md)
-## LeetCode
-| #	Title         | 
-| ----------------- |
-| [155_Min Stack](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/155_Min%20Stack%20_06170141.py)| 
-| [232_Implement Queue using Stacks](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170141.py)| 
-| [283_Move Zeroes](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/283_Move%20Zeroes_06170141.py)| 
-| [561_Array Partition I](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/561_Array%20Partition%20I_06170141.py)| 
-| [1108_Defanging an IP Address](https://github.com/tzuying0312/Learning-Code/blob/master/Leetcode/1108_Defanging%20an%20IP%20Address_06170141.py)| 
-## CS50 
-- python flask
 
-| Jump To         | Implement                |
-| ----------------- |:----------------------- |
-| heroku安裝       | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/heroku%E5%AE%89%E8%A3%9D.md)   |
-| deploy to heroku | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/deploy%20to%20heroku.md)     |
-| ngrok安裝及部署   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/ngrok.md)    |
-| python flask + linebot(echo)   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot(echo).md)    | 
-| linebot+cloud speech to text api   | [:link:](https://github.com/tzuying0312/Learning-Code/blob/master/python%20flask/linebot%2Bcloud%20speech%20to%20text%20api.md)|
