@@ -418,7 +418,7 @@ def finalexcel(wb,fn,part,time,name,other,verb, noun, adj,score,magnitude,gcs_ur
     ws.append([gcs_url,part,str(time),name,str(other),str(verb),str(noun),str(adj) ,score,magnitude,react])    
     wb.save(fn)
     print('success')
-    # tostorage(fn)
+    tostorage(fn)
 
 def tostorage(xlsx):
     gcs = storage.Client()
@@ -442,6 +442,6 @@ def upload(bucket,filename):
 
 
 bucket='lalu-aud'
-# list_blobs1(bucket, datetime.date.today())
+list_blobs1(bucket, datetime.date.today())
 # list_blobs1(bucket, '2020-02-20')
-tostorage('2020-02-20.xlsx')
+# tostorage('2020-02-20.xlsx')
