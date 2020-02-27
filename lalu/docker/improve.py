@@ -22,7 +22,7 @@ from openpyxl.reader.excel import load_workbook
 from tempfile import NamedTemporaryFile
 
 
-credential_path = "lalu-263512-cdb7007e6aad.json"
+credential_path = "apikey.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 def list_blobs(bucket):
