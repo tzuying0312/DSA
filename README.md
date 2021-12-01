@@ -20,7 +20,7 @@ week3 : [Stack & Queue 課程 ppt](https://docs.google.com/presentation/d/e/2PAC
 * Queue : 排隊的概念，先到先贏，先進先出(FIFO First in First out)。
 * ex : 疊盤子、發牌、走迷宮
 
-week4[ Insertion Sort 課程 ppt](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
+week4 : [Insertion Sort 課程 ppt](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
 * Insertion Sort是一種簡單容易理解的排序演算法，概念是利用另一個數列來存放已排序部分，逐一取出未排序數列中元素，從已排序數列由後往前找到適當的位置插入。
 
 week5 : [Quick Sort 課程 ppt](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -67,7 +67,7 @@ week15 : [Shortest Path 課程 ppt](https://docs.google.com/presentation/d/e/2PA
 
 week16 : [Overview 課程 ppt](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
-week17:期末考
+week17 : 期末考
 
-week18:放假
+week18 : 放假
 
